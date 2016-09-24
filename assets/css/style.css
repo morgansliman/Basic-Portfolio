@@ -1,9 +1,15 @@
-h1 {
+h1, h2, h3 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#aboutMe, #socialText {
+	color: #4aaaa5;
+
 }
 
 p, a {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
 #myName {
@@ -24,9 +30,62 @@ li {
 	padding-left: 10px;
 }
 
+#main-wrapper {
+	width: 960px;
+	position: relative;
+	top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .mainContent {
-	margin-top: -20px;
 	background-image: url("../images/background.png");
+	padding-bottom: 100px;
+}
+
+#githubIcon, #linkedinIcon, #overflowIcon {
+	height: 55px;
+	width: 55px;
+	padding-left: 5px;
+}
+
+#icon-wrapper {
+	margin-left: -13px;
+}
+
+#wrapper {
+	width: 650px;
+	background-color: #ffffff;
+	position: relative;
+	border: 2px solid #dddddd; 
+}
+
+aside {
+	width: 270px;
+	height: 200px;
+	float: right;
+	background: #ffffff;
+	border: 2px solid #dddddd; 
+}
+
+div#social-wrapper {
+	position: relative;
+	left: 19%;
+	top: 8%;
+}
+
+aside hr {
+	width: 184px;
+	position: relative;
+	left: -51px;
+	color: #dddddd;
+	border-style: solid;
+	opacity: 0.6;
+}
+
+#socialText {
+	margin-left: -7px !important;
+	padding-bottom: 4px;
 }
 
 header {
@@ -43,4 +102,18 @@ nav {
 
 nav a {
 	text-decoration: none;
+}
+
+section.mainContent img {
+	width: 150px;
+	height: 150px;
+}
+
+footer {
+	padding: 10px 0;
+	background: #666666;
+}
+
+footer p {
+	text-align: center;
 }
