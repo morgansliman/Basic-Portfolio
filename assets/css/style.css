@@ -85,6 +85,10 @@ aside hr {
 	right: 15px;
 }
 
+#icon-wrapper a {
+	text-decoration: none;
+}
+
 #aboutMe, #contact, #socialText, #portfolioText {
 	color: #4aaaa5;
 }
