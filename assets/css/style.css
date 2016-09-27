@@ -22,7 +22,7 @@ li {
 	padding-left: 10px;
 }
 
-nav a {
+header a {
 	text-decoration: none;
 }
 
@@ -234,7 +234,15 @@ input[type=name]:focus, input[type=email]:focus {
 	position: relative;
 }
 
+footer, .push {
+	height: 78px;
+}
+
 footer {
+	line-height: 49px;
+	padding-bottom: 2px;
+	position: relative;
+	width: 100%;
 	padding: 10px 0;
 	background: #666666;
 	border-top: 8px solid #4aaaa5;	
